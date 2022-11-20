@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.outerContainer{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(-40deg, rgba(11, 225, 175, 0.829), rgba(252, 252, 252, 0.838));
+}
+
+.innerContainer{
+    width: 450px;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    background-color: rgba(245, 245, 245, 0.559);
+    backdrop-filter: blur(8px);
+    box-shadow: 3px 4px 2px rgb(4, 162, 171);
+    z-index: 2;
+}
+
+h2, h4{
+    margin: 10px;
+    padding: 2px 0px;
+    color:rgb(6, 106, 177);
+    letter-spacing: 2px;
+}    
+
+p{
+    padding: 7px;
+    letter-spacing: 1.5px;
+}
+
+label{
+    padding: 5px;
+}
+
+input{
+    display: block;
+    width: 80%;
+    margin: 5px;
+    padding: 3px;
+    background-color: rgba(240, 248, 255, 0.721);
+    border-radius: 5px;
+}
+
+button{
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 1rem;
+    padding: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(8, 96, 130);
+    color: white;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(40deg, rgba(7, 185, 143, 0.9), rgba(252, 252, 252, 0.838));
+    position: absolute;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(40deg, rgba(5, 193, 149, 0.877), rgba(252, 252, 252, 0.838));
+    position: absolute;
+}
+
+.c1{
+    top: 50px;
+    left: 100px;
+}
+.c2{
+    bottom: 50px;
+    right: 80px;
+}
+.s1{
+    top:200px;
+    right:100px
+}
+.s2{
+    bottom: 100px;
+    left: 400px;
+}
+.s3{
+    left:80px;
+    bottom: 200px;
+}
+.s4{
+    right:300px;
+    top: 50px;
+}
